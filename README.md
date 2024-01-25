@@ -8,7 +8,7 @@ To facilitate user interaction, a Flask-based web app has been developed for dep
 
 
 
-![introduction](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/08d6e2fd-316a-4118-9f38-a751613fc00d)
+![introduction](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/96948d90-399f-41dd-9050-42d8e167e195)
 
 
 
