@@ -9,7 +9,7 @@ Table of contents
   * [Data Scrapping](#data)  
   * [Model Training](#model)
   * [Error Analysis](#error)
-  * [Web-App](#webapp)
+  * [Web App](#webapp)
   * [Future Work](#future)
   * [Confidence Report](#confidence)
 <!--te--> 
