@@ -1,5 +1,6 @@
 # 2023 Car Model Classification (scrapping + training + web-app)
-This project trains and deploys a car model classification using PyTorch. The project involves scrapping the car images and specs from the web, training the models, and deploying the models using a web app.
+
+Previous works on car model classification have focused on older datasets (e.g. [Stanford car dataset](http://vision.stanford.edu/pdf/3drr13.pdf))
 
 Table of contents
 =================
