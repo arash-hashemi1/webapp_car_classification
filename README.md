@@ -7,7 +7,8 @@ Implemented on the PyTorch framework, two deep learning models utilize Efficient
 To facilitate user interaction, a Flask-based web app has been developed for deploying the classifier. This web application allows users to upload images of 2023 model-year cars and receive detailed information about the model and its specifications.
 
 
-![Uploading introduction.png…]()
+![introduction](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/6abb58a6-76e0-48b9-b289-c9c79e17afed)
+
 
 
 Table of contents
