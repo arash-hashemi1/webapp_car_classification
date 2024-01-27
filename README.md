@@ -25,7 +25,7 @@ Table of contents
   * [Confidence Report](#confidence)
 <!--te--> 
 
-File Description
+# File Description
 ================
 
 The primary files for this project can be found within the "src" folder:
@@ -37,7 +37,8 @@ The primary files for this project can be found within the "src" folder:
 | interior_exterior_classifier |  Includes the files used for training the interior exterior classifier, utilizing the EfficientNet_b1 architecture |
 | web_app |  Includes the scripts used for creating the Flask car classifier web app |
 
-Data Scrapping
+
+# Data Scrapping 
 ================
 <p align="justify"> 
 This project involves extensive data scraping activities. Specifically, 200,000 car image URLs, accompanied by their corresponding specifications spanning over 19,000 models, are systematically scraped from the web. The gathered data undergoes a thorough cleaning process to format the specifications appropriately. Subsequently, the car images are extracted and saved using the obtained URLs, undergoing post-processing steps to ensure they are prepared for the subsequent training phases. The car data includes both exterior and interior images:
@@ -48,7 +49,7 @@ This project involves extensive data scraping activities. Specifically, 200,000 
   <img src="/images/data.PNG" alt="Image Alt text">
 </p>
 
-Model Training
+# Model Training
 ================
 
 To distinguish between exterior and interior images and prepare the exterior ones for the primary model training, a specialized model is developed using the EfficientNetB1 architecture. This compact model is designed to classify car images into either "Exterior" or "Interior" categories based on their visual characteristics.
@@ -79,7 +80,7 @@ The resulting model is proficient in classifying 175 categories of 2023 car mode
   <img src="/images/results.png" alt="Image Alt text">
 </p>
 
-Web Application
+# Web Application
 ================
 
 
@@ -90,7 +91,7 @@ To streamline the model deployment process, a web application has been created u
 </p>
 
 
-Future Work
+# Future Work
 ================
 
 
@@ -104,7 +105,7 @@ The upcoming phases for this project include the following considerations:
 
  </p>
 
-Classification Report
+# Classification Report
 =====================
 
 Below is the full classification report generated from the output of the best ResNet101 model.
