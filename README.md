@@ -1,4 +1,4 @@
-# 2023 Car Model Classification (scrapping + training + web-app)
+# 2023 Car Model Classification 
 <p align="justify">
 This project focuses on advancing car model classification, departing from prior works primarily based on older datasets such as the [Stanford car dataset](https://ai.stanford.edu/~jkrause/papers/fgvc13.pdf). Tailored for 2023 models, the car model classifier is trained on an extensive dataset comprising over 200,000 car images sourced from the web, spanning model years 2011 to 2024. The dataset encompasses more than 19,000 car model images, each accompanied by detailed specifications.
 
