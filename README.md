@@ -19,7 +19,6 @@ Table of contents
   * [File Description](#files)  
   * [Data Scrapping](#data)  
   * [Model Training](#model)
-  * [Error Analysis](#error)
   * [Web App](#webapp)
   * [Future Work](#future)
   * [Confidence Report](#confidence)
@@ -33,8 +32,8 @@ The primary files for this project can be found within the "src" folder:
 | --- | --- |
 | web_scrapping |  Includes the scripts used for scrapping the data images/specification, cleaning the data frames, and postprocessing the data |
 | model_classifier | Includes the scripts used for training the main car classifier, utilizing the ResNet50, ResNet101 architectures |
-| interior_exterior_classifier |  Includes the scripts used for training the interior exterior classifier, utilizing the EfficientNet_B1 architecture |
-| interior_exterior_classifier |  Includes the files used for training the interior exterior classifier, utilizing the EfficientNet_B1 architecture |
+| interior_exterior_classifier |  Includes the scripts used for training the interior exterior classifier, utilizing the EfficientNet_b1 architecture |
+| interior_exterior_classifier |  Includes the files used for training the interior exterior classifier, utilizing the EfficientNet_b1 architecture |
 | web_app |  Includes the scripts used for creating the Flask car classifier web app |
 
 Data Scrapping
@@ -44,8 +43,16 @@ This project involves extensive data scraping activities. Specifically, 200,000 
 
 
 
-
-
-
 ![data](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/24597ffb-f319-49cc-8d04-16d3991668c0)
+
+Model Training
+================
+
+To distinguish between exterior and interior images and prepare the exterior ones for the primary model training, a specialized model was developed using the EfficientNet_b1 architecture. This compact model is designed to classify car images into either "Exterior" or "Interior" categories based on their visual characteristics.
+
+
+
+![EfficientNet](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/29d2eba2-cf8d-4ce5-b964-f49855acbd87)
+
+
 
