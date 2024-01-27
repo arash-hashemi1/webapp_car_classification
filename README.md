@@ -44,8 +44,9 @@ This project involves extensive data scraping activities. Specifically, 200,000 
  </p>
 
 
-
-![Image Alt text](/images/data.PNG)
+<p align="center">
+  <img src="/images/data.PNG" alt="Image Alt text">
+</p>
 
 Model Training
 ================
@@ -54,7 +55,10 @@ To distinguish between exterior and interior images and prepare the exterior one
 
 
 
-![EfficientNet](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/29d2eba2-cf8d-4ce5-b964-f49855acbd87)
+<p align="center">
+  <img src="/images/EfficientNet.PNG" alt="Image Alt text">
+</p>
+
 
 
 <p align="justify"> 
