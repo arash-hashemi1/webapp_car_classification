@@ -104,6 +104,11 @@ The upcoming phases for this project include the following considerations:
 
  </p>
 
+Classification Report
+=====================
+
+Below is the full classification report generated from the output of the best ResNet101 model.
+
 
 
 
