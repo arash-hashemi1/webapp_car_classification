@@ -90,6 +90,18 @@ To streamline the model deployment process, a web application has been created u
 </p>
 
 
+Future Work
+================
+
+
+The upcoming phases for this project include the following considerations:
+
+1. Enhance the testing accuracy of the model by exploring additional architectures and incorporating more fully-connected layers.
+
+2. Expand the training dataset to encompass car images from model years spanning 2020 to 2024.
+
+3. Revise and upgrade the design of the web application, extending its capabilities to display a broader range of exterior and interior images associated with the classified car model.
+
  </p>
 
 
