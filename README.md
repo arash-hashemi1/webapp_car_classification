@@ -1,7 +1,7 @@
 # 2023 Car Model Classification (scrapping + training + web-app)
 
 <p align="justify"> 
-This project focuses on advancing car model classification, departing from prior works primarily based on older datasets such as the [Stanford car dataset]([http://vision.stanford.edu/pdf/3drr13.pdf/](https://ai.stanford.edu/~jkrause/papers/fgvc13.pdf)). Tailored for 2023 models, the car model classifier is trained on an extensive dataset comprising over 200,000 car images sourced from the web, spanning model years 2011 to 2024. The dataset encompasses more than 19,000 car model images, each accompanied by detailed specifications.
+This project focuses on advancing car model classification, departing from prior works primarily based on older datasets such as the [Stanford car dataset](https://ai.stanford.edu/~jkrause/papers/fgvc13.pdf). Tailored for 2023 models, the car model classifier is trained on an extensive dataset comprising over 200,000 car images sourced from the web, spanning model years 2011 to 2024. The dataset encompasses more than 19,000 car model images, each accompanied by detailed specifications.
 
 Implemented on the PyTorch framework, two deep learning models utilize EfficientNet_b1, ResNet50, and ResNet101 architectures. The first model classifies interior-exterior car images, contributing to the creation of the primary dataset. The second model achieves a 97.3% training and 73.4% testing accuracy in classifying 2023 car models.
 
