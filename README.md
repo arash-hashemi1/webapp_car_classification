@@ -27,3 +27,12 @@ Table of contents
 
 File Description
 ================
+
+The primary files for this project can be found within the "src" folder:
+| Folder | Description |
+| --- | --- |
+| web_scrapping |  Includes the scripts used for scrapping the data images/specification, cleaning the data frames, and postprocessing the data |
+| model_classifier | Includes the scripts used for training the main car classifier, utilizing the ResNet50, ResNet101 architectures |
+| interior_exterior_classifier |  Includes the scripts used for training the interior exterior classifier, utilizing the EfficientNet_B1 architecture |
+| interior_exterior_classifier |  Includes the files used for training the interior exterior classifier, utilizing the EfficientNet_B1 architecture |
+| web_app |  Includes the scripts used for creating the Flask car classifier web app |
