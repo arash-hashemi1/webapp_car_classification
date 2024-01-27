@@ -2,7 +2,7 @@
 
 This project focuses on advancing car model classification, departing from prior works primarily based on older datasets such as the [Stanford car dataset](https://ai.stanford.edu/~jkrause/papers/fgvc13.pdf). Tailored for 2023 models, the car model classifier is trained on an extensive dataset comprising over 200,000 car images sourced from the web, spanning model years 2011 to 2024. The dataset encompasses more than 19,000 car model images, each accompanied by detailed specifications.
 
-Implemented on the PyTorch framework, two deep learning models utilize EfficientNet_b1, ResNet50, and ResNet101 architectures. The first model classifies interior-exterior car images, contributing to the creation of the primary dataset. The second model achieves a 97.3% training and 73.4% testing accuracy in classifying 2023 car models.
+Implemented on the PyTorch framework, two deep learning models utilize EfficientNetB1, ResNet50, and ResNet101 architectures. The first model classifies interior-exterior car images, contributing to the creation of the primary dataset. The second model achieves a 97.3% training and 73.4% testing accuracy in classifying 2023 car models.
 
 To facilitate user interaction, a Flask-based web app has been developed for deploying the classifier. This web application allows users to upload images of 2023 model-year cars and receive detailed information about the model and its specifications.
 
@@ -47,7 +47,7 @@ This project involves extensive data scraping activities. Specifically, 200,000 
 Model Training
 ================
 
-To distinguish between exterior and interior images and prepare the exterior ones for the primary model training, a specialized model was developed using the EfficientNet_b1 architecture. This compact model is designed to classify car images into either "Exterior" or "Interior" categories based on their visual characteristics.
+To distinguish between exterior and interior images and prepare the exterior ones for the primary model training, a specialized model was developed using the EfficientNetB1 architecture. This compact model is designed to classify car images into either "Exterior" or "Interior" categories based on their visual characteristics.
 
 
 
