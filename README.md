@@ -66,8 +66,10 @@ After preparing the main training data, the primary classifier undergoes trainin
 
 The resulting model is proficient in classifying 175 categories of 2023 car models. The training outcomes are detailed below, revealing the model's convergence and its attainment of a **97.3% training and a 73.4% testing accuracy**:
 
+<p align="center">
+  ![results](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/f0fb2378-66eb-4186-9095-a81d1058104f)
+</p>
 
-![results](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/f0fb2378-66eb-4186-9095-a81d1058104f)
 
  </p>
 
