@@ -40,4 +40,9 @@ The primary files for this project can be found within the "src" folder:
 Data Scrapping
 ================
 
-This project involves extensive data scraping activities. Specifically, 200,000 car image URLs, accompanied by their corresponding specifications spanning over 19,000 models, are systematically scraped from the web. The gathered data undergoes a thorough cleaning process to format the specifications appropriately. Subsequently, the car images are extracted and saved using the obtained URLs, undergoing post-processing steps to ensure they are prepared for the subsequent training phases.
+This project involves extensive data scraping activities. Specifically, 200,000 car image URLs, accompanied by their corresponding specifications spanning over 19,000 models, are systematically scraped from the web. The gathered data undergoes a thorough cleaning process to format the specifications appropriately. Subsequently, the car images are extracted and saved using the obtained URLs, undergoing post-processing steps to ensure they are prepared for the subsequent training phases. Here is a sample of the data specifications:
+
+
+
+![scrapping](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/0139db28-8ab9-4460-830e-9ec8aa57d1d6)
+
