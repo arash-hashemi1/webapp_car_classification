@@ -16,14 +16,12 @@ To facilitate user interaction, a Flask-based web app has been developed for dep
 Table of contents
 =================
 
-<!--ts-->
-  * [File Description](#files)  
-  * [Data Scrapping](#data)  
-  * [Model Training](#model)
-  * [Web App](#webapp)
-  * [Future Work](#future)
-  * [Confidence Report](#confidence)
-<!--te--> 
+- [File Description](#file-description)
+- [Data Scrapping](#data-scrapping)
+- [Model Training](#model-training)
+- [Web App](#web-app)
+- [Future Work](#future-work)
+- [Confidence Report](#confidence-report)
 
 # File Description
 
