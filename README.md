@@ -8,7 +8,7 @@ To facilitate user interaction, a Flask-based web app has been developed for dep
 
 
 <div style="text-align: center;">
-    ![Image Alt text](/images/introduction.png)
+  ![Image Alt text](/images/introduction.png)
 </div>
 
 
