@@ -66,17 +66,19 @@ To distinguish between exterior and interior images and prepare the exterior one
 After preparing the main training data, the primary classifier undergoes training using exterior image data to discern various car models. This involves employing two architectures, ResNet50 and ResNet101. Transfer learning is applied to extract features from the models, and the fully-connected sections are retrained using exterior image data. To enhance the networks' specialization, fine-tuning is performed using the 2023 model year car models. 
 
 
+<p align="center">
+  <img src="/images/resnet.png" alt="Image Alt text">
+</p>
 
-![resnet](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/23b8d993-c10e-412a-bc2b-10e82eef6ff3)
 
 
 
 The resulting model is proficient in classifying 175 categories of 2023 car models. The training outcomes are detailed below, revealing the model's convergence and its attainment of a **97.3% training and a 73.4% testing accuracy**:
 
 <p align="center">
-  <img width="460" height="300" src=![results](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/f0fb2378-66eb-4186-9095-a81d1058104f)>
+  <img src="/images/results.png" alt="Image Alt text">
 </p>
-  
+
 
 
 
