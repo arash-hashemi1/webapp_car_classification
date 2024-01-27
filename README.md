@@ -42,7 +42,8 @@ This project involves extensive data scraping activities. Specifically, 200,000 
  </p>
 
 
-![data](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/24597ffb-f319-49cc-8d04-16d3991668c0)
+
+![Image Alt text](/images/data.PNG)
 
 Model Training
 ================
