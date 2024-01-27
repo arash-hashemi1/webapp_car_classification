@@ -47,11 +47,30 @@ This project involves extensive data scraping activities. Specifically, 200,000 
 Model Training
 ================
 
-To distinguish between exterior and interior images and prepare the exterior ones for the primary model training, a specialized model was developed using the EfficientNetB1 architecture. This compact model is designed to classify car images into either "Exterior" or "Interior" categories based on their visual characteristics.
+To distinguish between exterior and interior images and prepare the exterior ones for the primary model training, a specialized model is developed using the EfficientNetB1 architecture. This compact model is designed to classify car images into either "Exterior" or "Interior" categories based on their visual characteristics.
 
 
 
 ![EfficientNet](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/29d2eba2-cf8d-4ce5-b964-f49855acbd87)
+
+
+<p align="justify"> 
+ 
+After preparing the main training data, the primary classifier undergoes training using exterior image data to discern various car models. This involves employing two architectures, ResNet50 and ResNet101. Transfer learning is applied to extract features from the models, and the fully-connected sections are retrained using exterior image data. To enhance the networks' specialization, fine-tuning is performed using the 2023 model year car models. 
+
+
+
+![resnet](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/23b8d993-c10e-412a-bc2b-10e82eef6ff3)
+
+
+
+The resulting model is proficient in classifying 175 categories of 2023 car models. The training outcomes are detailed below, revealing the model's convergence and its attainment of a **97.3% training and a 73.4% testing accuracy**:
+
+
+![results](https://github.com/arash-hashemi1/webapp_car_classification/assets/48169508/f0fb2378-66eb-4186-9095-a81d1058104f)
+
+ </p>
+
 
 
 
