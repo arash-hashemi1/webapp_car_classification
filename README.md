@@ -26,7 +26,7 @@ Table of contents
 <!--te--> 
 
 # File Description
-================
+
 
 The primary files for this project can be found within the "src" folder:
 | Folder | Description |
@@ -39,7 +39,7 @@ The primary files for this project can be found within the "src" folder:
 
 
 # Data Scrapping 
-================
+
 <p align="justify"> 
 This project involves extensive data scraping activities. Specifically, 200,000 car image URLs, accompanied by their corresponding specifications spanning over 19,000 models, are systematically scraped from the web. The gathered data undergoes a thorough cleaning process to format the specifications appropriately. Subsequently, the car images are extracted and saved using the obtained URLs, undergoing post-processing steps to ensure they are prepared for the subsequent training phases. The car data includes both exterior and interior images:
  </p>
@@ -50,7 +50,7 @@ This project involves extensive data scraping activities. Specifically, 200,000 
 </p>
 
 # Model Training
-================
+
 
 To distinguish between exterior and interior images and prepare the exterior ones for the primary model training, a specialized model is developed using the EfficientNetB1 architecture. This compact model is designed to classify car images into either "Exterior" or "Interior" categories based on their visual characteristics.
 
@@ -81,7 +81,7 @@ The resulting model is proficient in classifying 175 categories of 2023 car mode
 </p>
 
 # Web Application
-================
+
 
 
 To streamline the model deployment process, a web application has been created using the Flask framework in Python. This application is designed to accept an image of a 2023 car model and provide information such as the model itself, the Manufacturer's Suggested Retail Price (MSRP), and pertinent specifications. The initial version, v1.0.0, is currently operational on a server and can be accessed via the following link.
@@ -92,7 +92,7 @@ To streamline the model deployment process, a web application has been created u
 
 
 # Future Work
-================
+
 
 
 The upcoming phases for this project include the following considerations:
@@ -106,7 +106,7 @@ The upcoming phases for this project include the following considerations:
  </p>
 
 # Classification Report
-=====================
+
 
 Below is the full classification report generated from the output of the best ResNet101 model.
 
