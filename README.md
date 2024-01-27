@@ -79,7 +79,15 @@ The resulting model is proficient in classifying 175 categories of 2023 car mode
   <img src="/images/results.png" alt="Image Alt text">
 </p>
 
+Web Application
+================
 
+
+To streamline the model deployment process, a web application has been created using the Flask framework in Python. This application is designed to accept an image of a 2023 car model and provide information such as the model itself, the Manufacturer's Suggested Retail Price (MSRP), and pertinent specifications. The initial version, v1.0.0, is currently operational on a server and can be accessed via the following link.
+
+<p align="center">
+  <img src="/images/web-app.png" alt="Image Alt text">
+</p>
 
 
  </p>
