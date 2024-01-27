@@ -21,7 +21,7 @@ Table of contents
 - [Model Training](#model-training)
 - [Web App](#web-app)
 - [Future Work](#future-work)
-- [Confidence Report](#confidence-report)
+- [Classification Report](#classification-report)
 
 # File Description
 
