@@ -8,7 +8,7 @@ To facilitate user interaction, a Flask-based web app has been developed for dep
 
 
 
-<p>![Alt text](/images/introduction.png)</p>
+![Image Alt text](/images/introduction.png)
 
 
 
