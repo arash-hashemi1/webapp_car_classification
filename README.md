@@ -107,9 +107,9 @@ The upcoming phases for this project include the following considerations:
 
 Below is the complete classification report for the best ResNet101 model
                            
-   |  precision  |  recall  |  f1-score  |  support
-
-|2023 Acura Integra               |  0.4        |  0.33    |  0.36      |  6
+| Model                          | Precision | Recall | F1-Score | Support |
+|--------------------------------|-----------|--------|----------|---------|
+| 2023 Acura Integra              | 0.4       | 0.33   | 0.36     | 6       |
 
 
 
