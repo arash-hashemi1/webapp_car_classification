@@ -1,4 +1,4 @@
-# ResNet101 classifier
+# ResNet50 and ResNet101 classifiers
 import torch.nn as nn
 import torch
 from torchvision.models import resnet50, ResNet50_Weights, resnet101, ResNet101_Weights
