@@ -107,15 +107,4 @@ The upcoming phases for this project include the following considerations:
 
 Below is the complete classification report for the best ResNet101 model
                            
-|                               | precision | recall | f1-score | support |
-|-------------------------------|-----------|--------|----------|---------|
-| 2023 Acura Integra            | 0.4       | 0.33   | 0.36     | 6       |
-| 2023 Acura MDX                | 0.25      | 0.25   | 0.25     | 8       |
-| 2023 Acura RDX                | 0.5       | 0.29   | 0.36     | 7       |
-| 2023 Acura TLX                | 0.42      | 0.62   | 0.5      | 8       |
-| 2023 Alfa Romeo Giulia        | 0.71      | 0.83   | 0.77     | 6       |
-| ...                           | ...       | ...    | ...      | ...     |
-| accuracy                      |           |        | 0.71     | 1284    |
-| macro avg                     | 0.7       | 0.66   | 0.66     | 1284    |
-| weighted avg                  | 0.72      | 0.71   | 0.7      | 1284    |
-
+$(cat data/classification_report.md)
