@@ -10,9 +10,6 @@ from torch.utils.data import DataLoader
 from flask import Flask, render_template, request
 from PIL import Image
 import pandas as pd
-from flask import Flask, render_template, request
-import os
-from PIL import Image
 from transform import transform_image
 from resnet_classifier import ResNet101, ResNet50
 from class_prediction import get_predicted_class
