@@ -105,7 +105,9 @@ The upcoming phases for this project include the following considerations:
 
 # Classification Report
 
-[Download CSV](data/classification_report.csv)
+Below is the complete classification report for the best ResNet101 model
+
+[Link to file.md](data/classification_report.md)
 
 
 Below is the full classification report generated from the output of the best ResNet101 model.
