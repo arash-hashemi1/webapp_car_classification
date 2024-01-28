@@ -106,11 +106,12 @@ The upcoming phases for this project include the following considerations:
 # Classification Report
 
 Below is the complete classification report for the best ResNet101 model
+```markdown
+cat data/classification_report.md
+```markdown
 
-[Link to file.md](data/classification_report.md)
 
 
-Below is the full classification report generated from the output of the best ResNet101 model.
 
 
 
