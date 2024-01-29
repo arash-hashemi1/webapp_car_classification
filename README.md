@@ -4,7 +4,7 @@ This project focuses on advancing car model classification, departing from prior
 
 Utilizing the PyTorch framework, this project employs two deep learning models. The initial model employs the EfficientNetB1 architecture to classify interior-exterior car images, thereby contributing to the formation of the primary dataset. The second model, responsible for the main car model classification, is trained on ResNet50 and ResNet101 architectures.
 
-To facilitate user interaction, a Flask-based web app has been developed for deploying the classifier. This web application allows users to upload images of 2023 model-year cars and receive detailed information about the model and its specifications.
+To facilitate user interaction, a Flask-based web app has been developed for deploying the classifier. This web application allows users to upload images of 2023 model-year cars and receive detailed information about the model and its specifications [(link)](ArashHsm.pythonanywhere.com)
 
 
 <p align="center">
