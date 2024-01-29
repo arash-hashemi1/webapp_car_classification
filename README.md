@@ -7,6 +7,9 @@ Utilizing the PyTorch framework, this project employs two deep learning models. 
 To facilitate user interaction, a Flask-based web app has been developed for deploying the classifier. This web application allows users to upload images of 2023 model-year cars and receive detailed information about the model and its specifications [(Link)](ArashHsm.pythonanywhere.com) 
 <br>
 <br>
+<br>
+<br>
+
 <p align="center">
   <img src="/images/introduction.png" alt="Image Alt text">
 </p>
