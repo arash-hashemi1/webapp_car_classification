@@ -20,7 +20,7 @@ Table of contents
 =================
 
 - [File Description](#file-description)
-- [Data Scrapping](#data-scrapping)
+- [Data Scraping](#data-scraping)
 - [Model Training](#model-training)
 - [Web App](#web-app)
 - [Future Work](#future-work)
@@ -32,14 +32,14 @@ Table of contents
 The primary files for this project can be found within the "src" folder:
 | Folder | Description |
 | --- | --- |
-| web_scrapping |  Includes the scripts used for scrapping the data images/specification, cleaning the data frames, and postprocessing the data |
+| web_scraping |  Includes the scripts used for scraping the data images/specification, cleaning the data frames, and postprocessing the data |
 | model_classifier | Includes the scripts used for training the main car classifier, utilizing the ResNet50, ResNet101 architectures |
 | interior_exterior_classifier |  Includes the scripts used for training the interior exterior classifier, utilizing the EfficientNet_b1 architecture |
 | interior_exterior_classifier |  Includes the files used for training the interior exterior classifier, utilizing the EfficientNet_b1 architecture |
 | web_app |  Includes the scripts used for creating the Flask car classifier web app |
 
 
-# Data Scrapping 
+# Data Scraping 
 
 <p align="justify"> 
 This project involves extensive data scraping activities. Specifically, 200,000 car image URLs, accompanied by their corresponding specifications spanning over 19,000 models, are systematically scraped from the web. The gathered data undergoes a thorough cleaning process to format the specifications appropriately. Subsequently, the car images are extracted and saved using the obtained URLs, undergoing post-processing steps to ensure they are prepared for the subsequent training phases. The car data includes both exterior and interior images:
